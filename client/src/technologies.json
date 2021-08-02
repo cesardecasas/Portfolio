@@ -1,0 +1,29 @@
+{
+    "Languages":[
+        {"name":"JavaScript"},
+        {"name":"Node"},
+        {"name":"Python"}, 
+        {"name":"C#"},
+        {"name":"PHP"},
+        {"name":"HTML"},
+        {"name":"CSS"}
+    ],
+    "FrameWorks":[
+        {"name":"React"},
+        {"name":"Next.js"},
+        {"name":"Vue.js"},
+        {"name":"Express"},
+        {"name":"Flask"},
+        {"name":"Django"},
+        {"name":".Net"},
+        {"name":"Sequelize.js"},
+        {"name":"Mongoose.js"}
+    ],
+    "Tools":[
+        {"name":"Adobe Suite"},
+        {"name":"VScode"},
+        {"name":"Content Management Systems"},
+        {"name":"Git"},
+        {"name":"Amazon Warehouses Services"}
+    ]
+}
