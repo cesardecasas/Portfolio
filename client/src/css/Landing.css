@@ -36,7 +36,7 @@
     text-transform:uppercase;
     line-height:1.2em;
     position:relative;
-  text-shadow: 2px 2px 40px rgba(0,0,0,0.7);
+    text-shadow: 2px 2px 40px rgba(0,0,0,0.7);
 }
 .lineOne {
   transition-delay:.2s; 
