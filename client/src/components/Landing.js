@@ -4,12 +4,12 @@ import '../css/Landing.css'
 const Landing =()=>{
 
     return(
-        <div class="cater3-movingBG">
-            <div class="flyinTxtCont">
-            <div class="flyIn lineOne">Cesar</div>
-            <div class="flyIn lineTwo">De Casas </div>
-            <div class="flyIn lineThree">Web Developer</div>
-            <div class="flyIn lineFour"></div>
+        <div className="cater3-movingBG">
+            <div className="flyinTxtCont">
+            <div className="flyIn lineOne">Cesar</div>
+            <div className="flyIn lineTwo">De Casas </div>
+            <div className="flyIn lineThree">Web Developer</div>
+            <div className="flyIn lineFour"></div>
             </div>
         </div>
     )

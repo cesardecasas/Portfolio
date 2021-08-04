@@ -12,7 +12,6 @@ const Main =()=>{
 
     return (
         <main>
-            <br/>
             <Landing/>
             <PresentationCard/>
             <TextAnimated/>
