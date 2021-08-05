@@ -1,21 +1,18 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card'
+import Button from 'react-bootstrap/Button'
 
 const ProjectCard =(props)=>{
-    const {text, title, src } =props
+    const {text, title, link } =props
 
-    return (
-        <div className='card'>
-             <Card>
-                <Card.Img variant="top" src={src} />
+    return (    
+             <Card style={{ width: '18rem', marginTop:'2%', marginLeft:'2%' }} className='projectCard' >
                 <Card.Body>
-                    <Card.Title>{title}</Card.Title>
-                    <Card.Text>
-                    {text}
-                    </Card.Text>
+                    <Card.Title >{title}</Card.Title>
+                    <Card.Text style={{textAlign:'left'}} >{text}</Card.Text>
+                    <Button variant="success" style={{ marginRight:'60%', width:'35%' }} href={link}>Git</Button>
                 </Card.Body>
             </Card>
-        </div>
     )
 }
 

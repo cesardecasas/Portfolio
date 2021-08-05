@@ -1,0 +1,24 @@
+{
+    "arr":[
+        {
+            "tittle":"World Clock",
+            "description":"Web app using React Hooks, react-bootstrap, and react-icons. World clock app to view time in different timezones. Includes an animation of an analog clock.",
+            "link":"https://github.com/cesardecasas/WorldClock"
+        },
+        {
+            "tittle":"React Pokedex",
+            "description":"Pokedex web app, utilizing React-Redux, redux-thunk, react-bootstrap, react-icons, and Axios. Pokedex using Poke API to fetch the information, and displaying the pokemon with pagination and filters available.",
+            "link":"https://github.com/cesardecasas/reactPokedex"
+        },
+        {
+            "tittle":"Pet's Blog",
+            "description":"Fullstack web app utilizing React, video-react, HTML, CSS, JavaScript, Node.js, Cloudinary Mongoose, MongoDB, Bcrypt, and JSONwebtoken. Blog/Facebook clone utilizing authentication, video and image uploading.",
+            "link":"https://github.com/cesardecasas/dog-s-blog"        
+        },
+        {
+            "tittle":"Skyshop",
+            "description":"Fullstack web app utilizing React-Redux, Stripe.js, HTML, CSS, JavaScript, Axios, Node.js, Sequelize.js, PostgreSQL, AWS, Bcrypt, and JSONwebtoken. Online Store utilizing authentication and image uploading. ",
+            "link":"https://github.com/cesardecasas/skyshop"
+        }
+    ]
+}
