@@ -7,6 +7,8 @@ import technologies from './technologies.json'
 import Grid from './components/Grid'
 import Projects from './projects.json'
 import ProjectCard from './components/ProjectCard'
+import experience from './experience.json'
+import ExperienceCard from './components/ExperienceCard'
 
 const Main =()=>{
 
@@ -25,6 +27,9 @@ const Main =()=>{
             <h2 style={{margin:'3%'}}>My Projects</h2>
             <section className='projects'>
                 {Projects.arr.map((project, index)=><ProjectCard key={index} title={project.tittle} text={project.description} link={project.link}/>)}
+            </section>
+            <section className='grid' style={{width:'80%', marginLeft:'5%'}}>
+                {experience.arr.map((exp, i)=><ExperienceCard exp={exp} key={i} />)}
             </section>
             <Footer/>
         </main>

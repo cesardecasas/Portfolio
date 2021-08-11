@@ -1,0 +1,25 @@
+{
+    "arr":[
+        {
+            "company":"Feria Jerez 2018",
+            "title":"Assistant Manager",
+            "description":"Interned at local City Hall in Jerez, Zacatecas, Mexico. While in the internship I was in charge of:\n Booking artists to have free concerts for people.\n Manage worker's schedules.\n Organize a beauty pageant to select the town's queen.\n Collect foreign vendors' fees",
+            "start":"Jan, 2018",
+            "end":"June, 2018"
+        },
+        {
+            "company":"Freelance",
+            "title":"Computers/Electronics Repair Agent",
+            "description":"Side hustle diagnosing, troubleshooting, and repairing client's technology products, as well as, building computers from parts or advising customers on technology purchases",
+            "start":"Aug, 2018",
+            "end":"June, 2021"
+        },
+        {
+            "company":"General Assembly",
+            "title":"Software Engineer Fellow",
+            "description":"Participated in a full-time immersive, 3 month software engineering immersive, completing in-class projects, hackathons, and personal projects focused on real-world applications of data science principles and best practices.",
+            "start":"Oct, 2020",
+            "end":"Jan, 2021"
+        }
+    ]
+}
