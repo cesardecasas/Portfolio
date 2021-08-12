@@ -25,10 +25,11 @@ const Main =()=>{
                 <Grid name='Tools' arr={technologies.Tools} />
             </div>
             <h2 style={{margin:'3%'}}>My Projects</h2>
-            <section className='projects'>
+            <section className='projects' style={{width:'80%', marginLeft:'10%'}}>
                 {Projects.arr.map((project, index)=><ProjectCard key={index} title={project.tittle} text={project.description} link={project.link}/>)}
             </section>
-            <section className='grid' style={{width:'80%', marginLeft:'5%'}}>
+            <h2 style={{margin:'4%'}}>Experience</h2>
+            <section className='grid' style={{width:'80%', marginLeft:'10%'}}>
                 {experience.arr.map((exp, i)=><ExperienceCard exp={exp} key={i} />)}
             </section>
             <Footer/>
