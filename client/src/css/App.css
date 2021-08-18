@@ -46,6 +46,8 @@
   padding: 5px;
   background-color: azure;
   border-radius: 1.5rem;
+  font-size: 150%;
+  font-weight: 400;
 }
 
 .grid{

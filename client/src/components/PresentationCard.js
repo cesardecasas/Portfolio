@@ -6,7 +6,7 @@ const PresentationCard =()=>{
 
     return(
         <div>
-            <h2>About Me </h2>
+            <h2 style={{fontSize:'280%'}}>About Me </h2>
             <Col xs={6} md={4}>
                 <Image src="" roundedCircle />
             </Col>

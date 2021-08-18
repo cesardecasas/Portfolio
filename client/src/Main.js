@@ -24,12 +24,12 @@ const Main =()=>{
                 <Grid name='Frameworks' arr={technologies.FrameWorks} />
                 <Grid name='Tools' arr={technologies.Tools} />
             </div>
-            <h2 style={{margin:'3%'}}>My Projects</h2>
-            <section className='projects' style={{width:'80%', marginLeft:'10%'}}>
+            <h2 style={{margin:'3%', fontSize:'280%'}}>My Projects</h2>
+            <section className='projects' style={{width:'80%', marginLeft:'13%'}}>
                 {Projects.arr.map((project, index)=><ProjectCard key={index} title={project.tittle} text={project.description} link={project.link}/>)}
             </section>
-            <h2 style={{margin:'4%'}}>Experience</h2>
-            <section className='grid' style={{width:'80%', marginLeft:'10%'}}>
+            <h2 style={{margin:'4%', fontSize:'280%'}}>Experience</h2>
+            <section className='grid' style={{width:'80%', marginLeft:'13%'}}>
                 {experience.arr.map((exp, i)=><ExperienceCard exp={exp} key={i} />)}
             </section>
             <Footer/>

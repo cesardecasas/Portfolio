@@ -6,7 +6,7 @@ const Badges =(props)=>{
     return(
         <div>
             <h4>
-                <Badge bg='info'>{props.text.name}</Badge>
+                <Badge bg='info' style={{fontSize:'100%'}} >{props.text.name}</Badge>
             </h4>
         </div>
     )
