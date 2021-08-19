@@ -5,6 +5,7 @@
         {"name":"Python"}, 
         {"name":"C#"},
         {"name":"Java"},
+        {"name":"Ruby"},
         {"name":"HTML"},
         {"name":"CSS"}
     ],
