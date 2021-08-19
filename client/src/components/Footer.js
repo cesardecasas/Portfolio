@@ -12,7 +12,7 @@ const Footer =()=>{
                 <a href='https://github.com/cesardecasas'><SiGithub className='icon'/> </a>
                 <a href='https://www.linkedin.com/in/cesardecasas/'><SiLinkedin className='icon'/></a> 
                 <a href="mailto:cesar.decasasgarcia@gmail.com?"><MdMail className='icon'/>  </a>
-            <p className='register'>© Cesar De Casas. All rights reserved</p>
+            <p className='register' style={{color:'white'}}>© Cesar De Casas. All rights reserved</p>
             </div>
             <br/>
         </footer>

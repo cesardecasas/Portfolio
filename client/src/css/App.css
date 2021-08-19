@@ -1,6 +1,9 @@
 .App {
   text-align: center;
   background-color: rgb(24, 119, 91);
+  background-image: url('../resources/bg2.jpg');
+  background-position: center;
+  background-size: cover;
 }
 
 .App-logo {
@@ -72,12 +75,12 @@
 .social{
   width: 30%;
   margin-left: 35%;
-  border: solid 2px black;
+  border: solid 2px rgb(252, 252, 252);
   border-radius: 1.5rem;
 }
 
 .icon{
-  color: black;
+  color: rgb(253, 251, 251);
   height: 12%;
   width: 12%;
   margin-top: 3%;
