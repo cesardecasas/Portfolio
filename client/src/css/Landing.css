@@ -2,7 +2,7 @@
     height: 140%;
     background-image: url(https://th.bing.com/th/id/R.bcbc0e930658342ea1fa0e5fe1e1457a?rik=y1tndO6lgyM9Rg&pid=ImgRaw&r=0);
     background-size: 120%;
-    background-repeat: repeat-x;
+    
     background-blend-mode:saturation;
     animation: animatedBackground 15s linear alternate infinite;
 }
