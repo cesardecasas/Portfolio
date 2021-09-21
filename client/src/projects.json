@@ -22,7 +22,8 @@
         },
         {
             "tittle":"AniWorld",
-            "description":"Front-end web app utilizing Next.js, HTML, CSS, JavaScript, Axios, and multiple API's like Jinkan, AniAPI, Animechan, and Animenewsnetwork. Future implementation: backend using GraphQL and Postgress"
+            "description":"Front-end web app utilizing Next.js, HTML, CSS, JavaScript, Axios, and multiple API's like Jinkan, AniAPI, Animechan, and Animenewsnetwork. Future implementation: backend using GraphQL and Postgress",
+            "link":"https://github.com/cesardecasas/AniWorld"
         }
     ]
 }
