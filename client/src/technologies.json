@@ -23,9 +23,9 @@
     "Tools":[
         {"name":"Adobe Suite"},
         {"name":"VScode"},
-        {"name":"Content Management Systems"},
+        {"name":"CMS"},
         {"name":"Git"},
-        {"name":"Amazon Warehouses Services"},
-        {"name":"Jira, and other Atlassian tools"}
+        {"name":"AWS"},
+        {"name":"Jira"}
     ]
 }

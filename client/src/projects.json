@@ -1,6 +1,11 @@
 {
     "arr":[
         {
+            "tittle":"AniWorld",
+            "description":"Front-end web app utilizing Next.js, HTML, CSS, JavaScript, Axios, and multiple API's like Jinkan, AniAPI, Animechan, and Animenewsnetwork. Future implementation: backend using GraphQL and Postgress",
+            "link":"https://github.com/cesardecasas/AniWorld"
+        },
+        {
             "tittle":"World Clock",
             "description":"Web app using React Hooks, react-bootstrap, and react-icons. World clock app to view time in different timezones. Includes an animation of an analog clock.",
             "link":"https://github.com/cesardecasas/WorldClock"
@@ -19,11 +24,6 @@
             "tittle":"Skyshop",
             "description":"Fullstack web app utilizing React-Redux, Stripe.js, HTML, CSS, JavaScript, Axios, Node.js, Sequelize.js, PostgreSQL, AWS, Bcrypt, and JSONwebtoken. Online Store utilizing authentication and image uploading. ",
             "link":"https://github.com/cesardecasas/skyshop"
-        },
-        {
-            "tittle":"AniWorld",
-            "description":"Front-end web app utilizing Next.js, HTML, CSS, JavaScript, Axios, and multiple API's like Jinkan, AniAPI, Animechan, and Animenewsnetwork. Future implementation: backend using GraphQL and Postgress",
-            "link":"https://github.com/cesardecasas/AniWorld"
         }
     ]
 }

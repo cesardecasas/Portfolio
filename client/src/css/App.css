@@ -1,7 +1,6 @@
 .App {
   text-align: center;
-  background-color: rgb(24, 119, 91);
-  background-image: url('../resources/bg2.jpg');
+  
   background-position: center;
   background-size: cover;
 }
@@ -75,12 +74,31 @@
 .social{
   width: 30%;
   margin-left: 35%;
-  border: solid 2px rgb(252, 252, 252);
   border-radius: 1.5rem;
 }
 
+@media (max-width:480px) {
+  .social{
+    width: 60%;
+    margin-left: 20%;
+    border-radius: 1.5rem;
+  }
+}
+
+@media (min-width:481px) and (max-width:768px){
+  .social{
+    width: 50%;
+    margin-left: 20%;
+    border-radius: 1.5rem;
+  }
+}
+
+/* p{
+  color: white;
+} */
+
 .icon{
-  color: rgb(253, 251, 251);
+
   height: 12%;
   width: 12%;
   margin-top: 3%;
