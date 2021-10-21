@@ -15,7 +15,7 @@ const Grid =(props)=>{
                 <Accordion.Item eventKey='0' style={{backgroundColor:color}}>
                     <Accordion.Header style={{fontSize:'280%', backgroundColor:color, color:fontColor}}>{props.name}</Accordion.Header>
                         <Accordion.Body style={{backgroundColor:color}}>
-                            <Row xs={2} sm={2} md={3} lg={4}>
+                            <Row xs={2} sm={2} md={2} lg={2}>
                                 {props.arr.map((text, index)=><Col key={index}><Badges color={color} text={text} /></Col>)}
                             </Row>
                         </Accordion.Body>

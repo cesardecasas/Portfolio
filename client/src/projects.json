@@ -3,17 +3,20 @@
         {
             "tittle":"AniWorld",
             "description":"Front-end web app utilizing Next.js, HTML, CSS, JavaScript, Axios, and multiple API's like Jinkan, AniAPI, Animechan, and Animenewsnetwork. Future implementation: backend using GraphQL and Postgress",
-            "link":"https://github.com/cesardecasas/AniWorld"
+            "link":"https://github.com/cesardecasas/AniWorld",
+            "deploy":"https://ani-world.vercel.app/"
         },
         {
             "tittle":"World Clock",
             "description":"Web app using React Hooks, react-bootstrap, and react-icons. World clock app to view time in different timezones. Includes an animation of an analog clock.",
-            "link":"https://github.com/cesardecasas/WorldClock"
+            "link":"https://github.com/cesardecasas/WorldClock",
+            "deploy":"https://csr-worldclock.netlify.app/"
         },
         {
             "tittle":"React Pokedex",
             "description":"Pokedex web app, utilizing React-Redux, redux-thunk, react-bootstrap, react-icons, and Axios. Pokedex using Poke API to fetch the information, and displaying the pokemon with pagination and filters available.",
-            "link":"https://github.com/cesardecasas/reactPokedex"
+            "link":"https://github.com/cesardecasas/reactPokedex",
+            "deploy":"https://reactpokedexcsr.netlify.app/"
         },
         {
             "tittle":"Pet's Blog",
