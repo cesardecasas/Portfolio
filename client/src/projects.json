@@ -27,6 +27,12 @@
             "tittle":"Skyshop",
             "description":"Fullstack web app utilizing React-Redux, Stripe.js, HTML, CSS, JavaScript, Axios, Node.js, Sequelize.js, PostgreSQL, AWS, Bcrypt, and JSONwebtoken. Online Store utilizing authentication and image uploading. ",
             "link":"https://github.com/cesardecasas/skyshop"
+        },
+        {
+            "tittle":"Tic-Tac-Toe",
+            "description":"Tic-Tac-Toe made with React hooks, Bootstrap, and React-Icons. features Versus mode for 2 players and Single Player competing against a computer with easy and hardmode using Min/Max algorithm.",
+            "link":"https://github.com/cesardecasas/Tic-Tac-Toe-React",
+            "deploy":"https://csr-tic-tac.netlify.app/"
         }
     ]
 }
