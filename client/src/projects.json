@@ -7,6 +7,12 @@
             "deploy":"https://ani-world.vercel.app/"
         },
         {
+            "tittle":"AniWorldAPI",
+            "description":"API publicly hosted for the AniWorld web app, implementing authentication through token and session.(Note: deployment link it is only the base url for the api)",
+            "link":"https://github.com/cesardecasas/AniWorldAPi",
+            "deploy":"https://aniworld-api.herokuapp.com"
+        },
+        {
             "tittle":"World Clock",
             "description":"Web app using React Hooks, react-bootstrap, and react-icons. World clock app to view time in different timezones. Includes an animation of an analog clock.",
             "link":"https://github.com/cesardecasas/WorldClock",
