@@ -9,8 +9,8 @@
         {
             "tittle":"AniWorldAPI",
             "description":"API publicly hosted for the AniWorld web app, implementing authentication through token and session.(Note: deployment link it is only the base url for the api)",
-            "link":"https://github.com/cesardecasas/AniWorldAPi",
-            "deploy":"https://aniworld-api.herokuapp.com"
+            "link":"https://github.com/cesardecasas/AniWorldAPI",
+            "deploy":"https://github.com/cesardecasas/AniWorldAPI"
         },
         {
             "tittle":"World Clock",
