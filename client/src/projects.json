@@ -36,9 +36,15 @@
         },
         {
             "tittle":"Tic-Tac-Toe",
-            "description":"Tic-Tac-Toe made with React hooks, Bootstrap, and React-Icons. features Versus mode for 2 players and Single Player competing against a computer with easy and hardmode using Min/Max algorithm.",
+            "description":"Tic-Tac-Toe made with React hooks, Bootstrap, and React-Icons. Features Versus mode for 2 players and Single Player competing against a computer with easy and hardmode using Min/Max algorithm.",
             "link":"https://github.com/cesardecasas/Tic-Tac-Toe-React",
             "deploy":"https://csr-tic-tac.netlify.app/"
+        },
+        {
+            "tittle":"Chess",
+            "description":"Front-end web app made with TypeScript and React Hooks. Features a chess board to play against an AI.",
+            "link":"https://github.com/cesardecasas/Chess",
+            "deploy":"https://csr-chess.netlify.app/"
         }
     ]
 }
