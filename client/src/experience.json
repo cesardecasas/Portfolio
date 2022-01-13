@@ -1,11 +1,18 @@
 {
     "arr":[
         {
-            "company":"Feria Jerez 2018",
-            "title":"Assistant Manager",
-            "description":"Interned at local City Hall in Jerez, Zacatecas, Mexico. While in the internship I was in charge of:\n Booking artists to have free concerts for people.\n Manage worker's schedules.\n Organize a beauty pageant to select the town's queen.\n Collect foreign vendors' fees",
-            "start":"Jan, 2018",
-            "end":"June, 2018"
+            "company":"HUGE",
+            "title":"Front-End Developer",
+            "description":"In charge of re-skin, creation, and design of new components. Perform code reviews and do pair programming to ensure the best quality code possible. Refactor code to comply with best practices.Help write and point stories and tasks for planning.",
+            "start":"Dec, 2021",
+            "end":"Feb, 2022"
+        },
+        {
+            "company":"General Assembly",
+            "title":"Software Engineer Fellow",
+            "description":"Participated in a full-time immersive, 3 month software engineering immersive, completing in-class projects, hackathons, and personal projects focused on real-world applications of data science principles and best practices.",
+            "start":"Oct, 2020",
+            "end":"Jan, 2021"
         },
         {
             "company":"Freelance",
@@ -15,11 +22,13 @@
             "end":"June, 2021"
         },
         {
-            "company":"General Assembly",
-            "title":"Software Engineer Fellow",
-            "description":"Participated in a full-time immersive, 3 month software engineering immersive, completing in-class projects, hackathons, and personal projects focused on real-world applications of data science principles and best practices.",
-            "start":"Oct, 2020",
-            "end":"Jan, 2021"
+            "company":"Feria Jerez 2018",
+            "title":"Assistant Manager",
+            "description":"Interned at local City Hall in Jerez, Zacatecas, Mexico. While in the internship I was in charge of:\n Booking artists to have free concerts for people.\n Manage worker's schedules.\n Organize a beauty pageant to select the town's queen.\n Collect foreign vendors' fees",
+            "start":"Jan, 2018",
+            "end":"June, 2018"
         }
+        
     ]
 }
+
