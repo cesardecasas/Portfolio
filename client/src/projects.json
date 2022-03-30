@@ -13,6 +13,12 @@
             "deploy":"https://github.com/cesardecasas/AniWorldAPI"
         },
         {
+            "tittle":"RPG Game", 
+            "description":"RPG based game using gsap, open world web RPG game, waiting on future updates",
+            "link":"https://github.com/cesardecasas/PokemonCopy",
+            "deploy":"https://bucolic-jelly-be7460.netlify.app/"
+        },
+        {
             "tittle":"World Clock",
             "description":"Web app using React Hooks, react-bootstrap, and react-icons. World clock app to view time in different timezones. Includes an animation of an analog clock.",
             "link":"https://github.com/cesardecasas/WorldClock",
