@@ -1,9 +1,16 @@
 {
     "arr":[
         {
+            "company":"ShoppingGives",
+            "title":"Junior Software Engineer",
+            "description":"Perform code reviews and do pair programming to ensure the best quality code possible. Refactor code to comply with best practices. Create serverless infrastructure to simplify and improve existing services. Maintain current infrastructure of more than 15 microservices as well as, create new features and participate in architect planning for Backend and Frontend.",
+            "start":"Apr, 2022",
+            "end":"Present"
+        },
+        {
             "company":"HUGE",
             "title":"Front-End Developer",
-            "description":"In charge of re-skin, creation, and design of new components. Perform code reviews and do pair programming to ensure the best quality code possible. Refactor code to comply with best practices.Help write and point stories and tasks for planning.",
+            "description":"In charge of re-skin, creation, and design of new components. Perform code reviews and do pair programming to ensure the best quality code possible. Refactor code to comply with best practices. Help write and point stories and tasks for planning.",
             "start":"Dec, 2021",
             "end":"Feb, 2022"
         },
