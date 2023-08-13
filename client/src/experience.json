@@ -1,41 +1,46 @@
 {
-    "arr":[
+    "arr": [
         {
-            "company":"ShoppingGives",
-            "title":"Junior Software Engineer",
-            "description":"Perform code reviews and do pair programming to ensure the best quality code possible. Refactor code to comply with best practices. Create serverless infrastructure to simplify and improve existing services. Maintain current infrastructure of more than 15 microservices as well as, create new features and participate in architect planning for Backend and Frontend.",
-            "start":"Apr, 2022",
-            "end":"Present"
+            "company": "ShoppingGives",
+            "title": "Software Engineer",
+            "description": "Streamlined and enhanced services by implementing serverless infrastructure, reducing complexity and optimizing performance by 20%. Orchestrated the management and maintenance of multiple microservices, contributing to architectural planning for backend and frontend development; resulted in a 15% increase in system performance and seamless integration of new features. Developed reusable components for a React library, fostering code modularity and enabling a 30% reduction in development time for subsequent projects.",
+            "start": "June, 2023",
+            "end": "Present"
         },
         {
-            "company":"HUGE",
-            "title":"Front-End Developer",
-            "description":"In charge of re-skin, creation, and design of new components. Perform code reviews and do pair programming to ensure the best quality code possible. Refactor code to comply with best practices. Help write and point stories and tasks for planning.",
-            "start":"Dec, 2021",
-            "end":"Feb, 2022"
+            "company": "ShoppingGives",
+            "title": "Junior Software Engineer",
+            "description": "Perform code reviews and do pair programming to ensure the best quality code possible. Refactor code to comply with best practices. Create serverless infrastructure to simplify and improve existing services. Maintain current infrastructure of more than 15 microservices as well as, create new features and participate in architect planning for Backend and Frontend.",
+            "start": "Apr, 2022",
+            "end": "June, 2023"
         },
         {
-            "company":"General Assembly",
-            "title":"Software Engineer Fellow",
-            "description":"Participated in a full-time immersive, 3 month software engineering immersive, completing in-class projects, hackathons, and personal projects focused on real-world applications of data science principles and best practices.",
-            "start":"Oct, 2020",
-            "end":"Jan, 2021"
+            "company": "HUGE",
+            "title": "Front-End Developer",
+            "description": "In charge of re-skin, creation, and design of new components. Perform code reviews and do pair programming to ensure the best quality code possible. Refactor code to comply with best practices. Help write and point stories and tasks for planning.",
+            "start": "Dec, 2021",
+            "end": "Feb, 2022"
         },
         {
-            "company":"Freelance",
-            "title":"Computers/Electronics Repair Agent",
-            "description":"Side hustle diagnosing, troubleshooting, and repairing client's technology products, as well as, building computers from parts or advising customers on technology purchases",
-            "start":"Aug, 2018",
-            "end":"June, 2021"
+            "company": "General Assembly",
+            "title": "Software Engineer Fellow",
+            "description": "Participated in a full-time immersive, 3 month software engineering immersive, completing in-class projects, hackathons, and personal projects focused on real-world applications of data science principles and best practices.",
+            "start": "Oct, 2020",
+            "end": "Jan, 2021"
         },
         {
-            "company":"Feria Jerez 2018",
-            "title":"Assistant Manager",
-            "description":"Interned at local City Hall in Jerez, Zacatecas, Mexico. While in the internship I was in charge of:\n Booking artists to have free concerts for people.\n Manage worker's schedules.\n Organize a beauty pageant to select the town's queen.\n Collect foreign vendors' fees",
-            "start":"Jan, 2018",
-            "end":"June, 2018"
+            "company": "Freelance",
+            "title": "Computers/Electronics Repair Agent",
+            "description": "Side hustle diagnosing, troubleshooting, and repairing client's technology products, as well as, building computers from parts or advising customers on technology purchases",
+            "start": "Aug, 2018",
+            "end": "June, 2021"
+        },
+        {
+            "company": "Feria Jerez 2018",
+            "title": "Assistant Manager",
+            "description": "Interned at local City Hall in Jerez, Zacatecas, Mexico. While in the internship I was in charge of:\n Booking artists to have free concerts for people.\n Manage worker's schedules.\n Organize a beauty pageant to select the town's queen.\n Collect foreign vendors' fees",
+            "start": "Jan, 2018",
+            "end": "June, 2018"
         }
-        
     ]
 }
-
