@@ -1,0 +1,91 @@
+.timeline {
+    position: relative;
+    padding-left: var(--sp-6);
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 5px;
+    top: 6px;
+    bottom: 6px;
+    width: 1px;
+    background: var(--line);
+}
+
+.entry {
+    position: relative;
+    padding-bottom: var(--sp-6);
+}
+
+.entry:last-child {
+    padding-bottom: 0;
+}
+
+.entry::before {
+    content: '';
+    position: absolute;
+    left: calc(var(--sp-6) * -1 + 1px);
+    top: 6px;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: var(--void);
+    border: 2px solid var(--muted);
+}
+
+.entry.current::before {
+    border-color: var(--signal);
+    box-shadow: 0 0 10px var(--signal);
+}
+
+.entry-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: var(--sp-3);
+    margin-bottom: 4px;
+}
+
+.entry-role {
+    font-family: var(--mono);
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.entry-company {
+    color: var(--signal);
+    font-family: var(--mono);
+    font-size: 0.88rem;
+}
+
+.entry-dates {
+    margin-left: auto;
+    font-family: var(--mono);
+    font-size: 0.75rem;
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+}
+
+.entry-desc {
+    color: var(--ink-soft);
+    font-size: 0.95rem;
+    line-height: 1.65;
+    max-width: 68ch;
+    margin: 0;
+}
+
+.current-pill {
+    font-family: var(--mono);
+    font-size: 0.68rem;
+    color: var(--signal);
+    border: 1px solid var(--signal);
+    border-radius: 999px;
+    padding: 1px 8px;
+}
+
+@media (max-width: 860px) {
+    .entry-dates {
+        margin-left: 0;
+    }
+}

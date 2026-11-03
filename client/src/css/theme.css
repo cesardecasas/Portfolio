@@ -1,104 +1,105 @@
-:root[data-theme='neon'] {
-  --bg: #0a0b1a;
-  --surface: #141629;
-  --text: #e8e6f3;
-  --text-dim: #a8a2c9;
-  --accent-1: #ff2bd6;
-  --accent-2: #00f0ff;
-  --border: #3a2e5c;
-  --glow: rgba(255, 43, 214, 0.55);
+:root {
+    --void: #05070d;
+    --panel: #0c121c;
+    --panel-raised: #111828;
+    --line: #1d2636;
+    --line-soft: #161e2c;
+    --ink: #e8ebf2;
+    --ink-soft: #c7cbd9;
+    --muted: #7d8699;
+    --signal: #4fe0ff;
+    --pulse: #ff4d8d;
+    --mono: ui-monospace, 'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace;
+    --sans: 'Inter', ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    --sp-1: 4px; --sp-2: 8px; --sp-3: 12px; --sp-4: 16px; --sp-5: 24px;
+    --sp-6: 32px; --sp-7: 48px; --sp-8: 64px; --sp-9: 96px;
 }
 
-:root[data-theme='terminal'] {
-  --bg: #04120a;
-  --surface: #0c2217;
-  --text: #d9ffe8;
-  --text-dim: #7fae8f;
-  --accent-1: #00ff9c;
-  --accent-2: #ffb000;
-  --border: #1d4a30;
-  --glow: rgba(0, 255, 156, 0.5);
+html, body {
+    background: var(--void);
+    color: var(--ink);
+    font-family: var(--sans);
 }
 
-html,
 body {
-  background-color: var(--bg);
-  color: var(--text);
-  font-family: 'Rajdhani', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  transition: background-color 0.3s ease, color 0.3s ease;
+    min-height: 100vh;
+    background-image:
+        radial-gradient(ellipse 900px 500px at 85% -10%, rgba(79, 224, 255, 0.10), transparent 60%),
+        radial-gradient(ellipse 700px 500px at -10% 40%, rgba(255, 77, 141, 0.06), transparent 60%);
+    background-attachment: fixed;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Orbitron', sans-serif;
-  color: var(--text);
+    font-family: var(--mono);
+    color: var(--ink);
 }
 
 a {
-  color: var(--accent-2);
+    color: inherit;
+    text-decoration: none;
 }
 
 a:hover {
-  color: var(--accent-1);
+    color: var(--signal);
 }
 
 ::selection {
-  background: var(--accent-1);
-  color: var(--bg);
+    background: var(--signal);
+    color: var(--void);
+}
+
+:focus-visible {
+    outline: 2px solid var(--signal);
+    outline-offset: 2px;
 }
 
 ::-webkit-scrollbar {
-  width: 10px;
+    width: 10px;
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--bg);
+    background: var(--void);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--border);
-  border-radius: 6px;
+    background: var(--line);
+    border-radius: 6px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--accent-1);
+    background: var(--signal);
 }
 
-.btn-neon {
-  font-family: 'Share Tech Mono', monospace;
-  letter-spacing: 1px;
-  background: transparent;
-  color: var(--accent-1);
-  border: 1px solid var(--accent-1);
-  border-radius: 2px;
-  padding: 0.5rem 1.25rem;
-  text-decoration: none;
-  display: inline-block;
-  cursor: pointer;
-  transition: box-shadow 0.25s ease, color 0.25s ease, background-color 0.25s ease;
-  box-shadow: 0 0 4px var(--glow);
+.btn-fill, .btn-ghost {
+    font-family: var(--mono);
+    font-size: 0.85rem;
+    padding: var(--sp-3) var(--sp-5);
+    border-radius: 4px;
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: all 0.15s ease;
 }
 
-.btn-neon:hover {
-  background-color: var(--accent-1);
-  color: var(--bg);
-  box-shadow: 0 0 16px var(--glow), 0 0 32px var(--glow);
+.btn-fill {
+    background: var(--signal);
+    color: var(--void);
+    font-weight: 700;
+}
+
+.btn-fill:hover {
+    box-shadow: 0 0 24px rgba(79, 224, 255, 0.45);
+    transform: translateY(-1px);
+    color: var(--void);
 }
 
 .btn-ghost {
-  font-family: 'Share Tech Mono', monospace;
-  letter-spacing: 1px;
-  background: transparent;
-  color: var(--accent-2);
-  border: 1px solid var(--border);
-  border-radius: 2px;
-  padding: 0.5rem 1.25rem;
-  text-decoration: none;
-  display: inline-block;
-  cursor: pointer;
-  transition: border-color 0.25s ease, color 0.25s ease;
+    border-color: var(--line);
+    color: var(--muted);
+    background: transparent;
 }
 
 .btn-ghost:hover {
-  border-color: var(--accent-2);
-  color: var(--accent-2);
+    border-color: var(--signal);
+    color: var(--signal);
 }

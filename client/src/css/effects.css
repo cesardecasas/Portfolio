@@ -1,27 +1,8 @@
-@keyframes blink-cursor {
-  0%, 50% { opacity: 1; }
-  51%, 100% { opacity: 0; }
+@keyframes blink {
+  50% { opacity: 0; }
 }
 
-@keyframes spin-ring {
-  to { transform: rotate(360deg); }
-}
-
-@keyframes scanline-drift {
-  from { background-position-y: 0; }
-  to { background-position-y: 100px; }
-}
-
-@keyframes glitch-shift-1 {
-  0%, 100% { transform: translate(0, 0); opacity: 0; }
-  10% { transform: translate(-4px, 0); opacity: 1; }
-  20% { transform: translate(3px, 0); opacity: 1; }
-  30% { opacity: 0; }
-}
-
-@keyframes glitch-shift-2 {
-  0%, 100% { transform: translate(0, 0); opacity: 0; }
-  12% { transform: translate(4px, 0); opacity: 1; }
-  22% { transform: translate(-3px, 0); opacity: 1; }
-  32% { opacity: 0; }
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.45; transform: scale(0.82); }
 }

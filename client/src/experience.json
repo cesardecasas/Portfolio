@@ -1,11 +1,18 @@
 {
     "arr": [
         {
+            "company": "FloQast",
+            "title": "Software Engineer 3",
+            "description": "Build and maintain enterprise-grade systems handling large-scale ETL pipelines. Recently joined the Applied AI group, shipping AI-driven features aimed at solving real product problems rather than adding AI for its own sake.",
+            "start": "Aug, 2024",
+            "end": "Present"
+        },
+        {
             "company": "ShoppingGives",
             "title": "Software Engineer",
             "description": "Streamlined and enhanced services by implementing serverless infrastructure, reducing complexity and optimizing performance by 20%. Orchestrated the management and maintenance of multiple microservices, contributing to architectural planning for backend and frontend development; resulted in a 15% increase in system performance and seamless integration of new features. Developed reusable components for a React library, fostering code modularity and enabling a 30% reduction in development time for subsequent projects.",
             "start": "June, 2023",
-            "end": "Present"
+            "end": "July, 2024"
         },
         {
             "company": "ShoppingGives",

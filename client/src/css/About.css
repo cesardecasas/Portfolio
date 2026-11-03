@@ -1,0 +1,62 @@
+#about {
+    padding-top: var(--sp-5);
+    margin-top: 0;
+}
+
+.prompt {
+    font-family: var(--mono);
+    font-size: 0.85rem;
+    color: var(--muted);
+    margin-bottom: var(--sp-3);
+}
+
+.prompt .sigil {
+    color: var(--signal);
+}
+
+#about h1 {
+    font-weight: 700;
+    font-size: clamp(2rem, 4vw, 2.75rem);
+    line-height: 1.15;
+    margin: 0 0 var(--sp-2);
+    text-wrap: balance;
+    letter-spacing: -0.01em;
+}
+
+#about h1 .cursor {
+    display: inline-block;
+    width: 0.5ch;
+    height: 0.9em;
+    background: var(--signal);
+    margin-left: 4px;
+    vertical-align: -0.1em;
+    animation: blink 1s step-end infinite;
+}
+
+.tagline {
+    font-family: var(--mono);
+    color: var(--signal);
+    font-size: 1rem;
+    margin-bottom: var(--sp-5);
+}
+
+.bio {
+    max-width: 62ch;
+    font-size: 1.05rem;
+    line-height: 1.75;
+    color: var(--ink-soft);
+    margin-bottom: var(--sp-5);
+}
+
+.cta-row {
+    display: flex;
+    gap: var(--sp-3);
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    #about h1 .cursor {
+        animation: none;
+    }
+}

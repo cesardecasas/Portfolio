@@ -1,56 +1,73 @@
 {
     "arr": [
         {
+            "title": "Artemis Voice Bridge",
+            "description": "Self-contained, local-first voice interface for a personal AI assistant: real-time speech-to-text (Whisper on OpenVINO), streamed text-to-speech (Kokoro), hands-free wake-word detection with barge-in interrupts, and bilingual English/Spanish support — fully offline, typed end-to-end (mypy strict + TypeScript strict), backed by a 200+ test suite.",
+            "link": "https://github.com/cesardecasas/artemis-voice-bridge",
+            "tags": ["Python", "FastAPI", "WebSocket", "Whisper", "Kokoro TTS"],
+            "featured": true,
+            "building": true
+        },
+        {
             "title": "AniWorld",
             "description": "Front-end web app utilizing Next.js, HTML, CSS, JavaScript, Axios, and multiple API's like Jinkan, AniAPI, Animechan, and Animenewsnetwork. Future implementation: backend using GraphQL and Postgress",
             "link": "https://github.com/cesardecasas/AniWorld",
-            "deploy": "https://ani-world.netlify.app/"
+            "deploy": "https://ani-world.netlify.app/",
+            "tags": ["Next.js", "Axios", "REST"]
         },
         {
             "title": "AniWorldAPI",
             "description": "API publicly hosted for the AniWorld web app, implementing authentication through token and session.(Note: deployment link it is only the base url for the api)",
             "link": "https://github.com/cesardecasas/AniWorldAPI",
-            "deploy": "https://github.com/cesardecasas/AniWorldAPI"
+            "deploy": "https://github.com/cesardecasas/AniWorldAPI",
+            "tags": ["Node", "Auth", "REST"]
         },
         {
             "title": "RPG Game",
             "description": "RPG based game using gsap, open world web RPG game, waiting on future updates",
             "link": "https://github.com/cesardecasas/PokemonCopy",
-            "deploy": "https://bucolic-jelly-be7460.netlify.app/"
+            "deploy": "https://bucolic-jelly-be7460.netlify.app/",
+            "tags": ["GSAP", "JavaScript"]
         },
         {
             "title": "World Clock",
             "description": "Web app using React Hooks, react-bootstrap, and react-icons. World clock app to view time in different timezones. Includes an animation of an analog clock.",
             "link": "https://github.com/cesardecasas/WorldClock",
-            "deploy": "https://csr-worldclock.netlify.app/"
+            "deploy": "https://csr-worldclock.netlify.app/",
+            "tags": ["React", "react-bootstrap"]
         },
         {
             "title": "React Pokedex",
             "description": "Pokedex web app, utilizing React-Redux, redux-thunk, react-bootstrap, react-icons, and Axios. Pokedex using Poke API to fetch the information, and displaying the pokemon with pagination and filters available.",
             "link": "https://github.com/cesardecasas/reactPokedex",
-            "deploy": "https://reactpokedexcsr.netlify.app/"
+            "deploy": "https://reactpokedexcsr.netlify.app/",
+            "tags": ["React", "Redux", "Axios"]
         },
         {
             "title": "Pet's Blog",
             "description": "Fullstack web app utilizing React, video-react, HTML, CSS, JavaScript, Node.js, Cloudinary Mongoose, MongoDB, Bcrypt, and JSONwebtoken. Blog/Facebook clone utilizing authentication, video and image uploading.",
-            "link": "https://github.com/cesardecasas/dog-s-blog"
+            "link": "https://github.com/cesardecasas/dog-s-blog",
+            "tags": ["React", "Node.js", "MongoDB"]
         },
         {
             "title": "Skyshop",
             "description": "Fullstack web app utilizing React-Redux, Stripe.js, HTML, CSS, JavaScript, Axios, Node.js, Sequelize.js, PostgreSQL, AWS, Bcrypt, and JSONwebtoken. Online Store utilizing authentication and image uploading. ",
-            "link": "https://github.com/cesardecasas/skyshop"
+            "link": "https://github.com/cesardecasas/skyshop",
+            "tags": ["Node.js", "Sequelize", "Stripe"]
         },
         {
             "title": "Tic-Tac-Toe",
             "description": "Tic-Tac-Toe made with React hooks, Bootstrap, and React-Icons. Features Versus mode for 2 players and Single Player competing against a computer with easy and hardmode using Min/Max algorithm.",
             "link": "https://github.com/cesardecasas/Tic-Tac-Toe-React",
-            "deploy": "https://csr-tic-tac.netlify.app/"
+            "deploy": "https://csr-tic-tac.netlify.app/",
+            "tags": ["React", "Min-Max AI"]
         },
         {
             "title": "Chess",
             "description": "Front-end web app made with TypeScript and React Hooks. Features a chess board to play against an AI.",
             "link": "https://github.com/cesardecasas/Chess",
-            "deploy": "https://csr-chess.netlify.app/"
+            "deploy": "https://csr-chess.netlify.app/",
+            "tags": ["TypeScript", "React"]
         }
     ]
 }
