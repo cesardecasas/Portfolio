@@ -1,37 +1,29 @@
-import Navbar from 'react-bootstrap/Navbar'
-import Nav from 'react-bootstrap/Nav'
-import Container from 'react-bootstrap/Container'
-import { IoMdMoon} from 'react-icons/io'
-import {BsSun} from 'react-icons/bs' 
-import { useEffect, useState } from 'react'
+import { IoMdMoon } from 'react-icons/io'
+import { BsSun } from 'react-icons/bs'
+import '../css/Nav.css'
+
+const links = [
+    { href: '#presentation', label: 'About' },
+    { href: '#tech', label: 'Technologies' },
+    { href: '#projects', label: 'Projects' },
+]
 
 const Navigation =({set, mode})=>{
 
-    const [bg, setBg] = useState('light')
-    const [color, setColor] = useState('black')
-
-    useEffect(()=>{
-        if(mode === false){
-            setBg('light')
-            setColor('black')
-        }else if(mode === true){
-            setBg('dark')
-            setColor('white')
-        }
-    },[mode])
-
     return(
-        <Navbar bg={bg} sticky='top'>
-            <Container>
-            <Nav className="me-auto">
-            <Nav.Link href="#presentation" style={{color:color}}>About</Nav.Link>
-            <Nav.Link href="#tech" style={{color:color}}>Technologies</Nav.Link>
-            <Nav.Link href="#projects" style={{color:color}}>Projects</Nav.Link>
-            {mode ? <BsSun style={{width:'30px', height:'40px', color:'white'}} onClick={()=>set(!mode)}/> :  <IoMdMoon style={{width:'30px', height:'40px'}} onClick={()=>set(!mode)}/>}
-            </Nav>
-            </Container>
-        </Navbar>
- 
+        <nav className="cyber-nav">
+            <div className="cyber-nav-inner">
+                <a href="#presentation" className="cyber-nav-brand">CDC_</a>
+                <div className="cyber-nav-links">
+                    {links.map((link)=>(
+                        <a key={link.href} href={link.href} className="cyber-nav-link">{link.label}</a>
+                    ))}
+                </div>
+                <button className="cyber-theme-toggle" onClick={()=>set(!mode)} aria-label="Toggle theme">
+                    {mode ? <BsSun/> : <IoMdMoon/>}
+                </button>
+            </div>
+        </nav>
     )
 }
 

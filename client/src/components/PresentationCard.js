@@ -1,37 +1,38 @@
 import React from 'react'
 import Col from 'react-bootstrap/Col'
-import Image from 'react-bootstrap/Image'
 import Row from 'react-bootstrap/Row'
 import pp from '../resources/pp.jpg'
-import Button from 'react-bootstrap/Button'
+import '../css/PresentationCard.css'
 
-const PresentationCard =({color})=>{
+const PresentationCard =()=>{
 
     return(
-        <div id='presentation'>
+        <div id='presentation' className="hero">
+            <div className="hero-scanlines" aria-hidden="true" />
             <br/>
             <br/>
-            <br/>
-            <br/>
-            <Row xs={1} sm={1} md={2} style={{marginLeft:'10%', width:'80%'}}>
+            <Row xs={1} sm={1} md={2} className="hero-row" style={{marginLeft:'10%', width:'80%'}}>
                 <Col style={{display:'flex', justifyContent:'center'}}>
-                    <Image width='200px' style={{alignItems:'center', marginBottom:'4%'}}  src={pp} roundedCircle />
+                    <div className="hero-avatar-col-inner">
+                        <div className="hero-avatar-frame">
+                            <img className="hero-avatar" src={pp} alt="Cesar De Casas" />
+                        </div>
+                        <span className="hud-corner hud-tl" aria-hidden="true" />
+                        <span className="hud-corner hud-tr" aria-hidden="true" />
+                        <span className="hud-corner hud-bl" aria-hidden="true" />
+                        <span className="hud-corner hud-br" aria-hidden="true" />
+                    </div>
                 </Col>
                 <Col>
-                    <h2 className="flyIn lineOne" style={{fontSize:'280%', color:color}}>Hi, I'm Cesar</h2>
-                    <p className="flyIn lineTwo" style={{color:color}}>Full-Stack Developer</p>
-                    <p style={{ color:color}}>Passionate web developer who is always eager to learn new things. I believe analyzing 
-                    and comprehending problems is key to create more efficient and 
+                    <h2 className="hero-name" data-text="Hi, I'm Cesar" style={{fontSize:'280%'}}>Hi, I'm Cesar</h2>
+                    <p className="hero-tagline">&gt; Full-Stack Developer<span className="hero-blink">_</span></p>
+                    <p className="hero-bio">Passionate web developer who is always eager to learn new things. I believe analyzing
+                    and comprehending problems is key to create more efficient and
                     reliable code, as well as innovating the world as we know it.</p>
-                    <Button variant="dark" href="mailto:cesar.decasasgarcia@gmail.com?">Contact Me</Button>
+                    <a className="btn-neon" href="mailto:cesar.decasasgarcia@gmail.com?">Contact Me</a>
                 </Col>
-                
+
             </Row>
-            {/* <p>
-                    Passionate web developer who is always eager to learn new things. I believe analyzing 
-                    and comprehending problems is key to create more efficient and 
-                    reliable code, as well as innovating the world as we know it.
-                </p> */}
         </div>
     )
 }

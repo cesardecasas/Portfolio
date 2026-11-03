@@ -1,7 +1,7 @@
 import Modal from 'react-bootstrap/Modal'
-import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form'
 import { useState } from 'react';
+import '../css/Modal.css'
 
 
 const ModalFrame =(props)=> {
@@ -14,6 +14,8 @@ const ModalFrame =(props)=> {
         {...props}
         size="xl"
         aria-labelledby="contained-modal-title-vcenter"
+        contentClassName="cyber-modal-content"
+        backdropClassName="cyber-modal-backdrop"
         centered
       >
         <Modal.Header closeButton>
@@ -22,7 +24,7 @@ const ModalFrame =(props)=> {
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
-        <Form.Check 
+        <Form.Check
           type="switch"
           id="custom-switch"
           label='Mobile View'
@@ -30,7 +32,7 @@ const ModalFrame =(props)=> {
         />
         {mobileView ? <em style={{fontWeight:'100',marginBottom:'4%' }}>Disclaimer: Mobile view pixel ratio from an iPhone 8 Plus</em>:<></>}
 
-          {mobileView ? 
+          {mobileView ?
 
             <iframe
             title='demo'
@@ -50,7 +52,7 @@ const ModalFrame =(props)=> {
             </iframe>}
         </Modal.Body>
         <Modal.Footer>
-          <Button variant='dark' onClick={props.onHide}>Close</Button>
+          <button className='btn-ghost' onClick={props.onHide}>Close</button>
         </Modal.Footer>
       </Modal>
     );

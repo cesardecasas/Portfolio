@@ -2,25 +2,20 @@ import React from 'react'
 import Badges from './Badge'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import Accordion from 'react-bootstrap/Accordion'
+import '../css/Grid.css'
 
 const Grid =(props)=>{
 
-    const {color, fontColor} = props
-
-
     return(
-        <section>
-            <Accordion style={{backgroundColor:color}}>
-                <Accordion.Item eventKey='0' style={{backgroundColor:color}}>
-                    <Accordion.Header style={{fontSize:'280%', backgroundColor:color, color:fontColor}}>{props.name}</Accordion.Header>
-                        <Accordion.Body style={{backgroundColor:color}}>
-                            <Row xs={2} sm={2} md={2} lg={2}>
-                                {props.arr.map((text, index)=><Col key={index}><Badges color={color} text={text} /></Col>)}
-                            </Row>
-                        </Accordion.Body>
-                </Accordion.Item>
-            </Accordion>
+        <section className="tech-panel">
+            <details className="tech-details" open>
+                <summary className="tech-summary">{props.name}</summary>
+                <div className="tech-body">
+                    <Row xs={2} sm={2} md={2} lg={2}>
+                        {props.arr.map((text, index)=><Col key={index}><Badges text={text} /></Col>)}
+                    </Row>
+                </div>
+            </details>
         </section>
     )
 }
